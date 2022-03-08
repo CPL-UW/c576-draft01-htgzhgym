@@ -25,6 +25,8 @@ public class TowerData : ScriptableObject
     private float m_projectileDamage;
     [SerializeField]
     private int m_cost;
+    [SerializeField]
+    private Color color = UnityEngine.Color.white;
 
     public Tower.Type Type {
         get { return m_type; }
@@ -52,5 +54,10 @@ public class TowerData : ScriptableObject
     }
     public int Cost {
         get { return m_cost; }
+    }
+
+    public Color Color
+    {
+        get { return color; }
     }
 }

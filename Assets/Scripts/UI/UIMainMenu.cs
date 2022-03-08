@@ -10,6 +10,8 @@ public class UIMainMenu : MenuBase {
     [SerializeField]
     private Button m_newGameButton;
     [SerializeField]
+    private Button m_helpButton;
+    [SerializeField]
     private Button m_quitButton;
 
     #endregion
@@ -18,6 +20,7 @@ public class UIMainMenu : MenuBase {
 
     private void Awake() {
         m_newGameButton.onClick.AddListener(HandleNewGame);
+        m_helpButton.onClick.AddListener(HandleHelp);
         m_quitButton.onClick.AddListener(HandleQuit);
     }
 
@@ -27,6 +30,11 @@ public class UIMainMenu : MenuBase {
 
     private void HandleNewGame() {
         SceneManager.LoadScene("SampleScene"); // change to whichever scene is your next
+        AudioManager.instance.PlayOneShot("menu-click-default");
+    }
+    
+    private void HandleHelp() {
+        SceneManager.LoadScene("HelpScene"); // change to whichever scene is your next
         AudioManager.instance.PlayOneShot("menu-click-default");
     }
 

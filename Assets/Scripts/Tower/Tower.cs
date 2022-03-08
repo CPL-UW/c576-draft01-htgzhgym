@@ -8,7 +8,10 @@ using UnityEngine;
 public class Tower : MonoBehaviour {
     public enum Type {
         Default,
-        SpiderOnly
+        SpiderOnly,
+        PureRed,
+        PureGreen,
+        PureBlue
     }
 
     // The tower's state of readiness
@@ -168,7 +171,9 @@ public class Tower : MonoBehaviour {
 
     public void SetFields(TowerData data) {
         m_type = data.Type;
+        this.GetComponent<SpriteRenderer>().color = data.Color;
         this.GetComponent<SpriteRenderer>().sprite = data.Sprite;
+        
         m_oncomerTargetTypes = data.OncomerTargets;
         shootSpeed = data.ShootSpeed;
         radius = data.Radius;

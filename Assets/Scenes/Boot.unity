@@ -445,6 +445,9 @@ MonoBehaviour:
   m_towerData:
   - {fileID: 11400000, guid: 7328814f41cecdf4f920e23a0ec9856b, type: 2}
   - {fileID: 11400000, guid: c46f6510252b25840b3b06af9a35abf5, type: 2}
+  - {fileID: 11400000, guid: 8a9d9dcab1babc145a3ccc494e76f967, type: 2}
+  - {fileID: 11400000, guid: 015a2136d3c76a14581a60af0e5885e2, type: 2}
+  - {fileID: 11400000, guid: 29045073f9342e748866bef14483672b, type: 2}
 --- !u!1 &1933579263
 GameObject:
   m_ObjectHideFlags: 0

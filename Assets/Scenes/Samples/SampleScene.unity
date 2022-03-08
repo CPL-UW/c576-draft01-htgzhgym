@@ -3219,6 +3219,22 @@ PrefabInstance:
       propertyPath: towerPrefab
       value: 
       objectReference: {fileID: 4267734552468271425, guid: 825cb965d5d531d4ab9bf044dc1b9b9a, type: 3}
+    - target: {fileID: 351133613817884885, guid: 96d644ed4cbfbf64b9ec67fc7b9d648c, type: 3}
+      propertyPath: m_unlockedTowers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 351133613817884885, guid: 96d644ed4cbfbf64b9ec67fc7b9d648c, type: 3}
+      propertyPath: m_unlockedTowers.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 351133613817884885, guid: 96d644ed4cbfbf64b9ec67fc7b9d648c, type: 3}
+      propertyPath: m_unlockedTowers.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 351133613817884885, guid: 96d644ed4cbfbf64b9ec67fc7b9d648c, type: 3}
+      propertyPath: m_unlockedTowers.Array.data[4]
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8410500221699569745, guid: 96d644ed4cbfbf64b9ec67fc7b9d648c, type: 3}
       propertyPath: m_Name
       value: TowerPlacementMenu

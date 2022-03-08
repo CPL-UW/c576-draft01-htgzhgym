@@ -21,6 +21,7 @@ public class TowerPlacementButton : MonoBehaviour {
         TowerData data = GameDB.instance.GetTowerData(type);
         towerType = data.Type;
         image.sprite = data.Sprite;
+        image.color = data.Color;
     }
 
     public void SetPlacable() {
