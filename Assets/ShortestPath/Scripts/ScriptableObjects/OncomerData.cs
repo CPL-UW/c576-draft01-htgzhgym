@@ -16,6 +16,8 @@ public class OncomerData : ScriptableObject {
     private float m_maxHealth;
     [SerializeField]
     private bool m_movesDiagonal = false;
+    [SerializeField]
+    private Color m_color = Color.white;
 
     public Oncomer.Type Type {
         get { return m_type; }
@@ -34,5 +36,9 @@ public class OncomerData : ScriptableObject {
     }
     public bool MovesDiagonal {
         get { return m_movesDiagonal; }
+    }
+    public Color Color
+    {
+        get { return m_color;  }
     }
 }

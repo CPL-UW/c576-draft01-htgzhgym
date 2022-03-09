@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: PureRed
   m_EditorClassIdentifier: 
   m_type: 2
-  m_sprite: {fileID: 21300000, guid: 820a2e2f70a16084a8702774e5a98bb0, type: 3}
-  m_oncomerTargets: 00000000
+  m_sprite: {fileID: 21300000, guid: 8611d48ad962b374a8efe6341000950e, type: 3}
+  m_oncomerTargets: 02000000
   m_shootSpeed: 1
   m_radius: 3
   m_projectileSoundID: projectile-default
   m_projectilePrefab: {fileID: 7706054819071973796, guid: a78acdf8f38343447a942451b67da1d5, type: 3}
   m_projectileDamage: 1
-  m_cost: 0
+  m_cost: 100
   color: {r: 1, g: 0, b: 0, a: 1}

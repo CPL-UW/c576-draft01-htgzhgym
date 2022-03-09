@@ -38,6 +38,8 @@ public class Tower : MonoBehaviour {
     [SerializeField]
     private CircleCollider2D m_radiusCollider;
 
+    private float damageMultiplier = 1f;
+
     private int m_cost;
 
     private float reloadTimer = 0f;

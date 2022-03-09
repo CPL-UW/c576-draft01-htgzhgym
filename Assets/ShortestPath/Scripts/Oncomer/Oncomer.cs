@@ -8,7 +8,8 @@ public class Oncomer : MonoBehaviour {
     public enum Type {
         // Framework
         Spider,
-        Salamander
+        Salamander,
+        Virus
     }
 
     [SerializeField]
@@ -20,6 +21,8 @@ public class Oncomer : MonoBehaviour {
     [SerializeField]
     private Type m_type; // only serialized for manual spawning
 
+
+    private Color Color = Color.white;
     private float m_maxHealth; // or equivalent measurement of Oncomer trait that is modified by towers
     private float m_currHealth; // or equivalent measurement of Oncomer trait that is modified by towers
     private List<TileData.WalkType> m_canWalkOn;
@@ -35,7 +38,7 @@ public class Oncomer : MonoBehaviour {
     private static float WAYPOINT_BUFFER = 0.05f;
 
     private void Awake() {
-        if (m_type == Type.Spider || m_type == Type.Salamander) {
+        if (m_type == Type.Spider || m_type == Type.Salamander || m_type == Type.Virus) {
             // Framework Case
             Debug.Log("Framework spawning");
             this.OncomerData = GameDB.instance.GetOncomerData(m_type);
