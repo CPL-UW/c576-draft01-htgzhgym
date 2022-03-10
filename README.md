@@ -1,5 +1,12 @@
 # MutantTD_Draft1
 
+finished: 
+- firebase auth. email+password
+- three types of tower based on color
+
+----------------------
+
+
 ## Assigned:
  - Theme: Manipulate probabilities and genetic mutation
     - idea:
@@ -8,11 +15,11 @@
  - Advanced feature: Game tools 
  - Prototype: Tower Defense
 
-## Plan for draft1:
-    - create 3 basic types of tower. (pure red, green and blue).
+## Plan:
+- create 3 basic types of tower. (pure red, green and blue).
         - have simple DNA sequence. 
-    - create different types of monsters. 
+- create different types of monsters. 
         - example: circles. RGB(128,0,0) - resistance for red - 128/(2*256) = 25%
-    - for each level completed, player will get MutantPoints. 
-    - use firebase for login, and record player level and MutantPoints.
+- for each level completed, player will get MutantPoints. 
+- use firebase for login, and record player level and MutantPoints.
     

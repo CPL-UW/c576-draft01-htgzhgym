@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252622683143",
+    "project_id": "mutant-e7f8c",
+    "storage_bucket": "mutant-e7f8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252622683143:android:968c5151e0ed95666a3ea2",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252622683143-qtf69rre0vj0641vjo3m3bih0qk98n7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-xFOVNMFX4BjUsvpKA3_uNxEo4GFcAUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252622683143-qtf69rre0vj0641vjo3m3bih0qk98n7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
