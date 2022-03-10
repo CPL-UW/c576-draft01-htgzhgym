@@ -1,5 +1,7 @@
 # MutantTD_Draft1
 
+open test.exe in /FinalBuild
+
 finished: 
 - firebase auth. email+password
 - three types of tower based on color
@@ -10,8 +12,7 @@ finished:
 ## Assigned:
  - Theme: Manipulate probabilities and genetic mutation
     - idea:
-        1. realize that mutation is a change of DNA sequence.
-        2. realize that not all mutation are useful, but without mutation people also cannot survive. 
+        1. realize that mutation is a change of DNA sequence
  - Advanced feature: Game tools 
  - Prototype: Tower Defense
 
